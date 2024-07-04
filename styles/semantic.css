@@ -23,7 +23,7 @@ ul {
     padding-left: 0;
     margin: 0;
 }
-ul > li {
+ul > li:not(:last-child) {
     margin-right: 30px;
 }
 .box {
@@ -56,4 +56,12 @@ section {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+}
+.link { 
+    background-color:rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+}
+.first {
+    background-color: moccasin;
 }
