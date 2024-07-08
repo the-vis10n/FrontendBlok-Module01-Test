@@ -19,12 +19,10 @@
 }
 ul {
     display: flex;
+    gap: 20px;
     list-style-type: none;
     padding-left: 0;
-    margin: 0;
-}
-ul > li:not(:last-child) {
-    margin-right: 30px;
+    margin: 0; 
 }
 .box {
     display: flex;
@@ -61,7 +59,12 @@ section {
     background-color:rebeccapurple;
     color: white;
     padding: 8px 15px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
 }
-.first {
-    background-color: moccasin;
+.results { 
+    display: flex;
+    gap: 10px;
+
 }
